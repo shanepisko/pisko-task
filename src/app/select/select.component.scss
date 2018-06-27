@@ -57,12 +57,7 @@
   }
 
 }
-@keyframes fallPerspective {
-	100% {
-    transform: translateZ(0px) translateY(0px);
-    opacity: 1;
-  }
-}
+
 @keyframes dropit {
 	100% {
     // transform: translateZ(0px) translateY(0px);

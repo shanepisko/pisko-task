@@ -9,7 +9,7 @@
     transform-style: preserve-3d;
     transform: translateZ(1000px) translateY(-600px);
     opacity: 0;
-    animation: fallPerspective .8s ease-out forwards;
+    animation: dropin .8s ease-out forwards;
     cursor: pointer;
 
     &.single:hover {
@@ -70,9 +70,9 @@
   }
 }
 
-@keyframes fallPerspective {
+@keyframes dropin {
 	100% {
-    transform: translateZ(0px) translateY(0px);
+    transform: translateZ(-120px) translateY(0px);
     opacity: 1;
   }
 }

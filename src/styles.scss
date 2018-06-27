@@ -7,12 +7,15 @@ body {
   background-image: url('./assets/background.jpg');
   font-family: 'Montserrat', sans-serif;
 
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
   .underline {
     position:relative;
     cursor:pointer;
     font-weight:bold;
     display:inline-block;
-    
+
     &:before {
       content: "";
       position: absolute;
@@ -34,5 +37,12 @@ body {
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
     }
+  }
+}
+
+@keyframes fallPerspective {
+	100% {
+    transform: translateZ(0px) translateY(0px);
+    opacity: 1;
   }
 }
