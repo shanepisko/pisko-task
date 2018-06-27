@@ -22,7 +22,7 @@ export class SelectComponent implements OnInit {
   @Input() options: Array<any>;
   @Output() selectedCompany = new EventEmitter<object>();
 
-  selection = { name: '- select -' };
+  selection = { name: '- Select -' };
   collapsed = true;
   minHeight: string = '0px';
   dropdownState: string = 'collapsed';

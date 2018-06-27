@@ -1,6 +1,7 @@
 :host {
-  width:40%;
-  margin:0 auto;
+  width:300px;
+  height:35px;
+  margin:30px auto;
   display:block;
   transform-style: preserve-3d;
   transform: translateZ(1000px) translateY(-600px);
@@ -19,17 +20,21 @@
     justify-content: space-between;
     align-items:center;
     background-color:#fff;
-    border:1px solid #eeeccc;
-    border-radius: 6px;
-    padding: 20px;
+    border:1px solid #f2f2f2;
+    border-radius: 2px;
+    height:100%;
+    margin-top:5px;
+
     cursor:pointer;
 
     .choice {
       width:80%;
+      padding:10px;
     }
     .indicator {
       width:20px;
       height:auto;
+      margin:20px;
     }
   }
   .options {
@@ -43,10 +48,13 @@
     // }
 
     .option {
+      height:35px;
+      display:flex;
+      align-items:center;
+      padding:2px 2px 2px 20px;
       cursor:pointer;
       background-color:#fff;
       border-bottom:1px solid #eeecff;
-      padding:20px;
       transition: all .4s ease-out;
 
       &.selected {

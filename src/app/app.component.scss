@@ -34,9 +34,9 @@
     text-align:center;
 
     .loading {
-      width:70px;
+      width:40px;
       transform: rotateZ(0deg);
-      animation: rolly .8s ease-out forwards;
+      animation: rolly .6s ease-in forwards;
       animation-direction: alternate;
       animation-iteration-count: infinite;
     }
@@ -48,10 +48,10 @@
 
 @keyframes rolly {
   0% {
-    transform: rotateZ(0deg);
+    transform: rotateZ(-45deg);
   }
 	100% {
-    transform: rotateZ(90deg);
+    transform: rotateZ(45deg);
   }
 }
 
@@ -62,7 +62,7 @@
   padding:10px;
   display:flex;
   align-items:center;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   font-size:9px;
