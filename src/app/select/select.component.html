@@ -2,7 +2,7 @@
   <div class="choice">
     {{selection.name}}
   </div>
-  <img [src]="" class="indicator"  />
+  <img [src]="'assets/Indicator.svg'" class="indicator"  />
 </div>
 <div [@expandCollapse]="{value: dropdownState, params:{min_height: minHeight}}" class="options">
   <div *ngFor="let option of options" (click)="setSelected(option)"

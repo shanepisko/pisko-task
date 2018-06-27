@@ -57,6 +57,10 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+
+    /*
+    THIS TIMEOUT CONTROLS THE ORER OF THINGS APPEARING ON THE PAGE
+     */
     let timeoutId = setInterval(() => {
       console.log(this.time);
       switch(this.time){
@@ -75,6 +79,9 @@ export class AppComponent implements OnInit {
     }, 1000);
   }
 
+  /*
+  THIS IS USED TO HANDLE SELECTION FROM THE DROP DOWN
+   */
   onSelectCompany (event) {
     console.log('from parent', event);
     this.showMondrian = true;

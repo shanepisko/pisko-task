@@ -20,7 +20,11 @@ export class BlockComponent implements OnInit {
     console.log(this.title);
     console.log(this.delay);
   }
-
+  /*
+  GET DELAY TAKES THE INDEX PASSED IN BY THE MONDRIAN COMPONENT
+  WHICH OUT PUTS THE BLOCKS IN A FOR LOOP
+  IT USES THE DELAY TO SET THE ANIMATION-DELAY STYLE TO OFFSET EAHC BLOCK
+   */
   getDelay() {
     return this.delay * 50 + 'ms';
   }

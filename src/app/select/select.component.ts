@@ -42,6 +42,7 @@ export class SelectComponent implements OnInit {
 
   toggleChoices () {
     this.collapsed = !this.collapsed;
+    // WHEN THE SELECTOR IS CLICKED WE USE THE EXPAND TEXT METHOD TO SET THE OPEN HEIGHT TO AUTO
     this.expandText();
   }
 
@@ -54,10 +55,12 @@ export class SelectComponent implements OnInit {
     console.log(choice);
   }
 
+
   expandText(){
     this.setStartHeight();
-   this.dropdownState = this.dropdownState === 'expanded' ? 'collapsed' : 'expanded';
-   console.log(this.dropdownState);
+    // DEPENDING ON WHAT THE STATE IS WE SHOULD EITHER EXPAND OR COLLAPSE THE DROPDOWN FOR THE OPTIONS
+    this.dropdownState = this.dropdownState === 'expanded' ? 'collapsed' : 'expanded';
+    console.log(this.dropdownState);
  }
 
 }
