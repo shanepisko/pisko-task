@@ -4,6 +4,8 @@
   display:flex;
   align-items:center;
   justify-content: space-between;
+  position: relative;
+  z-index:100;
   .nav-left {
     .logo {
       padding:9px;

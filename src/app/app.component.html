@@ -15,8 +15,8 @@
   <div *ngIf="showLoading" class="loading-holder">
     <img [src]="'assets/gear solid.svg'" class="loading" />
   </div>
+  <h2 *ngIf="showTitle" class="fall-in" [style.text-align]="'center'" [style.font-weight]="'600'">System Configuration</h2>
   <div *ngIf="showSelector" class="select-company">
-    <h2 [style.text-align]="'center'" [style.font-weight]="'600'">System Configuration</h2>
     <app-select
       (selectedCompany)="onSelectCompany($event)"
       [options]="companies">

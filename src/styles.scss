@@ -40,6 +40,13 @@ body {
   }
 }
 
+.fall-in {
+  transform-style: preserve-3d;
+  transform: translateZ(1000px) translateY(-600px);
+  opacity: 0;
+  animation: fallPerspective .8s ease-out forwards;
+}
+
 @keyframes fallPerspective {
 	100% {
     transform: translateZ(0px) translateY(0px);

@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
   showMondrian = false;
   showSelector = false;
   showLoading = false;
+  showTitle = false;
   selectedCompany: object;
 
   companies = [
@@ -69,11 +70,13 @@ export class AppComponent implements OnInit {
           break;
         case 2:
           this.showLoading = false;
-          this.showSelector = true;
+          this.showTitle = true;
           break;
         case 3:
-          this.showMondrian = true;
+          this.showSelector = true;
           break;
+        case 4:
+          this.showMondrian = true;
       }
       this.time++;
     }, 1000);
