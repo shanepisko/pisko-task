@@ -1,0 +1,11 @@
+<div class="outer" [style.animation-delay]="getDelay()" [ngClass]="{'single': !size, 'double': size == 2}">
+  <div class="inner">
+    <img *ngIf="icon" [src]="icon" class="icon"  />
+    <div class="title">
+      {{title}}
+    </div>
+    <div class="content">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>

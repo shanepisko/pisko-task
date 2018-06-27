@@ -1,0 +1,14 @@
+<div class="select" (click)="toggleChoices()">
+  <div class="choice">
+    {{selection.name}}
+  </div>
+  <img [src]="" class="indicator"  />
+</div>
+<div [@expandCollapse]="{value: dropdownState, params:{min_height: minHeight}}" class="options">
+  <div *ngFor="let option of options" (click)="setSelected(option)"
+    [ngClass]="['option']"
+    [class.selected]="option.selected"
+    >
+    {{option.name}}
+  </div>
+</div>

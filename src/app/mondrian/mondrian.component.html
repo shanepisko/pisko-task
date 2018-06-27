@@ -1,0 +1,8 @@
+<app-block *ngFor="let block of list; let i = index"
+  [title]="block.title"
+  [path]="block.path"
+  [icon]="block.icon"
+  [content]="block.content"
+  [delay]="i">
+</app-block>
+<ng-content></ng-content>
