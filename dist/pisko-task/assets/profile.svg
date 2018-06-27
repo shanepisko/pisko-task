@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Profile / Black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SystemConfig_Dash_dropdown" transform="translate(-1344.000000, -8.000000)" stroke="#000000" stroke-width="0.75">
+            <g id="Navigation-/-1280-/-Main-/-Lockup-/-OP">
+                <g id="Icons-/-Profile-/-Black" transform="translate(1344.000000, 9.000000)">
+                    <path d="M12.2,4.2 C12.2,6.51965735 10.3194469,8.4 8,8.4 C5.68055305,8.4 3.8,6.51965735 3.8,4.2 C3.8,1.88034265 5.68055305,0 8,0 C10.3194469,0 12.2,1.88034265 12.2,4.2 Z" id="Stroke-1"></path>
+                    <path d="M1,17.4533333 C1,12.814105 4.13413282,9.05333333 7.99989922,9.05333333 C11.8660687,9.05333333 15,12.814105 15,17.4533333" id="Stroke-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
